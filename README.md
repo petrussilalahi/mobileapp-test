@@ -12,6 +12,42 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 
 
+## Soal C1
+
+1. Struktur Data:
+
+    Graf Hubungan Pengguna:
+        Gunakan struktur data graf untuk merepresentasikan hubungan antara pengguna. Setiap pengguna adalah simpul dalam graf, dan hubungan antara pengguna direpresentasikan sebagai tepi. Ini menciptakan model yang fleksibel untuk menangani koneksi antar pengguna.
+
+2. Penanganan Kasus Ekstrim:
+
+    Tidak Ada Pengguna/Komunitas Terkait:
+        Prioritaskan fitur berbasis perilaku pengguna, seperti histori tindakan atau preferensi mereka.
+        Implementasikan mekanisme cadangan yang memberikan saran umum jika tidak ada koneksi spesifik.
+    Terlalu Banyak Pengguna/Komunitas Terkait:
+        Terapkan filter dan pembobotan untuk menyajikan hasil yang lebih relevan.
+        Gunakan teknik seperti pengelompokan komunitas untuk mengurangi kompleksitas dan mempermudah pencarian.
+
+3. Pengujian Fitur:
+
+    Uji Fungsional:
+        Pastikan bahwa fitur memberikan rekomendasi yang akurat dan relevan berdasarkan koneksi pengguna.
+        Uji berbagai skenario, termasuk kasus ekstrim yang mungkin terjadi.
+
+    Uji Kinerja:
+        Ukur kinerja fitur saat skala pengguna dan jumlah komunitas meningkat.
+        Evaluasi waktu respons dan beban server untuk memastikan kinerja yang memadai.
+
+    Uji Keselamatan:
+        Pastikan keamanan data pengguna dengan memvalidasi hak akses dan melindungi informasi pribadi.
+        Perhatikan potensi risiko privasi dan terapkan langkah-langkah mitigasi yang sesuai.
+
+    Uji Pengguna:
+        Lakukan pengujian pengguna beta untuk mendapatkan umpan balik langsung tentang kegunaan dan penerimaan fitur.
+        Monitor penggunaan dan perubahan perilaku pengguna setelah peluncuran.
+
+
+
 ## Soal C2
 
 1. **Pemahaman Tujuan Pengguna:**
